@@ -1,0 +1,35 @@
+Api de Librerías
+
+Descripción del proyecto:
+- Se crea una API REST que permite crear, consultar, actualizar y eliminar usuarios, libros y librerías mediantes los siguientes métodos:
+
+    .get("/obtener-todos")
+    .get("/obtener-por-id/:id")
+    .post("/crear")
+    .put("/editar/:id")
+    .delete("/eliminar/:id)
+    .post("/login")
+
+- El proyecto se basó en el lenguaje Node.Js y para su configuración inicial se utilizaron las siguientes librerías:
+
+  *Express =>(Framework que se utiliza para la creación de middlewares, manejo de errores y realizar peticiones Http.)
+
+  *Sequelize =>(ORM de Node que nos permite manipular la base de datos de manera más sencilla.)
+
+  *Mysql2 =>(Conector a la base de datos no relacional Msql.)
+
+  *Passport-jwt =>(Nos permite crear un middleware Passport con estrategia de tipo jwt, que permitirá recibir un toquen vía header y hacer su validación.)
+
+  *Passport =>(Es un middleware para express que nos permite implementar extrategias de autenticación de una manera rápida y simple.)
+
+  *Jsonwebtoken =>(Es un estandar para transmitir información de forma segura en internet, por medio de archivos e formatos JSON, que es un tipo de archivo de texto plano con el cual se pueden crear parámetros y asignarles un valor.)
+
+-Tecnologías empleadas:
+1.- Node.Js
+2.- MySql
+
+Inicialización del proyecto: npm start.
+
+Puerto del proyecto: localhost:3000
+
+Autora: Natasha Ruth Quevedo
